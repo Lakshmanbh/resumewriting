@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .circular-img {
+            border-radius: 50%;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lakshman B H - Digital Resume</h1>
+    </header>
+
+    <div class="container">
+        <!-- CV Download Link -->
+        <section id="cv-link">
+            <p>Download my CV: <a href="https://lakshmanbh.github.io/resumewebsite-/" download>Click here to download</a></p>
+        </section>
+
+        <section id="profile">
+            <div class="profile_container">
+                <div class="profile_profileImg">
+                    <img src="my pic.jpg" alt="my pic" class="circular-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Name: Lakshman B H</li>
+                <li>Email: <a href="mailto:lakshmanbh.sdr1@gmail.com">lakshmanbh.sdr1@gmail.com</a></li>
+                <li>Phone: +91 84315 57044</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/lakshman-b-h-6888b428a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/Lakshmanbh" target="_blank">GitHub Profile</a></li>
+                <li>Resume: <a href=file:///C:/Users/lbhim/Documents/resume.pdf download>Download Resume</a></li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education Qualification</h2>
+            <ul>
+                <li>GITAM Deemed to be University, Bengaluru
+                    <ul>
+                        <li>Branch: Electronics and Communication Engineering</li>
+                        <li>Year: 2021-2025</li>
+                        <li>CGPA: 7.18</li>
+                    </ul>
+                </li>
+                <li>SV Nanavate PU College, Bellary
+                    <ul>
+                        <li>Branch: PCMB</li>
+                        <li>Year: 2019-2021</li>
+                        <li>Percentage: 78.8%</li>
+                    </ul>
+                </li>
+                <li>Krupa Nilaya High School, Bengaluru
+                    <ul>
+                        <li>Standard: 10th</li>
+                        <li>Year: 2019</li>
+                        <li>Percentage: 78.40%</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="technical-skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>C Programming</li>
+                <li>Embedded C</li>
+                <li>Python Programming</li>
+                <li>PCB Designing</li>
+            </ul>
+        </section>
+
+        <section id="internships">
+            <h2>Internships</h2>
+            <ul>
+                 <li>Project Management Fundamentals at IBM Skills Build</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects & Accomplishments</h2>
+            <p>Wumpus world puzzle solving by a robot using artificial intelligence.</p>
+            <ul>
+                <li>Utilized Arduino Uno for operation.</li>
+                <li>Designed for easy operation and control.</li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Web development in Oasis Infobyte</li>
+            </ul>
+        </section>
+
+        <section id="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Time Management</li>
+                <li>Leadership</li>
+                <li>Decision Making</li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Travelling</li>
+                <li>Photography</li>
+                <li>Cooking</li>
+                <li>Listening to Music</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>Kannada</li>
+                <li>Hindi</li>
+                <li>English</li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('a').forEach(link => {
+                console.log(link.href);
+            });
+        });
+    </script>
+</body>
+
+</html>
